@@ -4,4 +4,4 @@ FROM alpine:latest
   LABEL version="1.0"
   RUN apk update && apk add bash && apk add openssh  && apk add lftp
 
-ENTRYPOINT ["/bin/sh", "mkdir -p ~/.ssh", "echo 'Done'"]
+CMD ["-c", "mkdir -p ~/.ssh", "echo 'Done'"]
