@@ -1,1 +1,1 @@
-[![Docker Build Status](https://img.shields.io/docker/build/jimmyadaro/gitlab-ci-cd.svg)](https://hub.docker.com/r/jimmyadaro/gitlab-ci-cd/) [![Docker Automated build](https://img.shields.io/docker/automated/jimmyadaro/gitlab-ci-cd.svg)](https://hub.docker.com/r/jimmyadaro/gitlab-ci-cd/)
+![Docker Build Status](https://img.shields.io/docker/build/jimmyadaro/gitlab-ci-cd.svg) ![Docker Build Status](https://img.shields.io/docker/automated/jimmyadaro/gitlab-ci-cd.svg)
