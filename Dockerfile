@@ -3,5 +3,9 @@ FROM alpine:latest
   LABEL description="Test for quick deploys using GitLab CI/CD"
   LABEL version="1.0"
   RUN apk update && apk add bash && apk add openssh  && apk add lftp && \
-  echo OK HERE && \
-  echo $LETEST
+  mkdir -p ~/.ssh && \
+  echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa && \
+  chmod 700 ~/.ssh && \
+  chmod 600 ~/.ssh/id_rsa && \
+  eval $(ssh-agent -s) && \
+  ssh-add ~/.ssh/id_rsa && \
