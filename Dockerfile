@@ -4,4 +4,4 @@ FROM alpine:latest
   LABEL version="1.0"
   RUN apk update && apk add bash && apk add openssh  && apk add lftp && \
   echo OK HERE && \
-  mkdir -pv ~/.ssh
+  echo $LETEST &&
