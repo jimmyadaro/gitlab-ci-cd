@@ -8,4 +8,4 @@ FROM alpine:latest
   chmod 700 ~/.ssh && \
   chmod 600 ~/.ssh/id_rsa && \
   eval $(ssh-agent -s) && \
-  ssh-add ~/.ssh/id_rsa && \
+  ssh-add ~/.ssh/id_rsa
