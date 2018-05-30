@@ -3,4 +3,4 @@ FROM alpine:latest
   LABEL description="Test for quick deploys using GitLab CI/CD"
   LABEL version="1.0"
   RUN apk update && apk add bash && apk add openssh  && apk add lftp
-  ENTRYPOINT echo "OK HERE"
+  ENTRYPOINT ["ps -aux", "echo OK HERE"]
