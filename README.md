@@ -4,6 +4,8 @@
 
 #### Created for simple CI/CD Pipelines* such as Bitbucket's or GitLab's.
 
+Available at Docker Hub: [https://hub.docker.com/r/jimmyadaro/gitlab-ci-cd](https://hub.docker.com/r/jimmyadaro/gitlab-ci-cd)
+
 It uses `bash`, `SSH` and `LFTP` to connect a remote server and _mirror_ (upload) the Git repository using the Git CI/CD repo vendor. 
 
 The `tzdata` package is to set the TimeZone when using `date` like so: `CURRENT_DATE=$(TZ="America/Argentina/Buenos_Aires" date +%F_%H-%M-%S);` 
