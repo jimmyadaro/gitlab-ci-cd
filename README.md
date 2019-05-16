@@ -2,7 +2,7 @@
 
 ![Docker Build Status](https://img.shields.io/docker/build/jimmyadaro/gitlab-ci-cd.svg) ![Docker Build Status](https://img.shields.io/docker/automated/jimmyadaro/gitlab-ci-cd.svg)
 
-**Created for simple CI/CD Pipelines* such as Bitbucket's or GitLab's.**
+#### Created for simple CI/CD Pipelines* such as Bitbucket's or GitLab's.
 
 It uses `bash`, `SSH` and `LFTP` to connect a remote server and _mirror_ (upload) the Git repository using the Git CI/CD repo vendor. 
 
