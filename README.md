@@ -49,4 +49,4 @@ The `tzdata` package is to set the TimeZone when using `date` like so: `CURRENT_
 
 ---
 
- _* Pipeline configuration not included. Use at your own risk. Tutorial for GitLab CI/CD [here](https://medium.com/@jimmyadaro/build-a-ci-cd-pipeline-with-docker-and-gitlab-f351585a5c83). Tutorial for Bitbucket coming soon_
+ _* Pipeline configuration not included. "Use at your own risk." Tutorial for GitLab CI/CD [here](https://medium.com/@jimmyadaro/build-a-ci-cd-pipeline-with-docker-and-gitlab-f351585a5c83). Tutorial for Bitbucket coming soon._
